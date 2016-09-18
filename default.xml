@@ -11,8 +11,7 @@
            revision="quiche"/>
 
   <remote  name="caf"
-           fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org"/>
+           fetch="https://source.codeaurora.org/quic/la" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
@@ -25,7 +24,7 @@
            fetch="ssh://git@github.com"/>
 
   <remote  name="caf_bluetooth"
-           fetch="git://codeaurora.org/quic/la"
+           fetch="git://source.codeaurora.org/quic/la"
            review="codeaurora.org"
            revision="refs/tags/LA.UM.8.1.r1-15600-sm8150.0" />
 
