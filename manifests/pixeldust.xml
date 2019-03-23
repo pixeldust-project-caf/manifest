@@ -27,10 +27,14 @@
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/hardware/qcom/bootctrl"/>
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/hardware/qcom/bt"/>
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" groups="pdcaf" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
@@ -52,6 +56,7 @@
   <!-- External -->
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="android_external_selinux" remote="pdcaf" groups="pdcaf" />
+  <project path="external/exfat" name="android_external_exfat" remote="pdcaf" groups="pdcaf" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
@@ -73,6 +78,12 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="android_vendor_qcom_opensource_commonsys_bluetooth" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
+  <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom-opensource_fm" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom-opensource_fm-commonsys" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="pdcaf" groups="pdcaf" />
   <project path="vendor/blobscript" name="android_vendor_blobscript" remote="pdcaf" groups="pdcaf" />
