@@ -1,9 +1,9 @@
-# Paranoid Android #
+# Pixel Dust Project CAF #
 
 ## Setting up your machine ##
 
 You must be running a 64-bit Linux distribution and must have installed some packages to build
-Paranoid Android. Google recommends using [Ubuntu](http://www.ubuntu.com/download/desktop) for
+PixelDust. Google recommends using [Ubuntu](http://www.ubuntu.com/download/desktop) for
 this and provides instructions for setting up the system (with Ubuntu-specific commands) on
 [the Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
 
@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b oreo-mr1
+$ repo init -u https://github.com/pixeldust-project-caf/manifest -b pie
 ```
 
 ### Downloading the source tree ###
@@ -69,7 +69,7 @@ a large change that spans across multiple projects.
 ```bash
 # Specify one or more projects by either name or path
 
-# For example, enter AOSPA/android_frameworks_base or
+# For example, enter pixeldust-project-caf/android_frameworks_base or
 # frameworks/base to sync the frameworks/base repository
 
 $ repo sync PROJECT
@@ -92,90 +92,8 @@ $ ./rom-build.sh DEVICE
 
 We're open source and patches are always welcome!
 
-You can see the status of all patches at [Gerrit Code Review](https://gerrit.aospa.co/).
+We will later add Gerrit Code Review for allowing contributions. If you would like to join the team please contact us via Telegram: https://t.me/spezi77
 
-### Following the standard workflow ###
-
-```bash
-# Start by going to the root of the source tree
-$ cd WORKSPACE
-
-# Create a new branch on the specific project you are going to work on
-# For example, `repo start fix-clock AOSPA/android_frameworks_base`
-$ repo start BRANCH AOSPA/PROJECT
-# You can also use the project path in place of the project name.
-# The PROJECT_DIR is the portion after the android_ prefix on
-# the AOSPA Github.  For example, android_frameworks_base translates
-# into the directory frameworks/base.
-# This applies to all repo commands that reference projects.
-$ repo start BRANCH PROJECT_DIR
-
-# Go inside the project you are working on
-$ cd PROJECT_DIR
-
-# Make your changes
-...
-
-# Commit all your changes
-$ git add -A
-$ git commit -a -s
-
-# Upload your changes
-$ cd WORKSPACE
-$ repo upload AOSPA/PROJECT
-# or
-$ repo upload PROJECT_DIR
-```
-### Using plain git to upload ###
-
-```bash
-# Go inside the project you are working on
-$ cd PROJECT_DIR
-
-# Make your changes
-...
-
-# Commit all your changes
-$ git add -A
-$ git commit -a -s
-
-# Upload your changes
-$ git push ssh://USERNAME@gerrit.aospa.co:29418/AOSPA/PROJECT HEAD:refs/for/oreo-mr1
-```
-
-### Making additional changes ###
-
-If you are going to make more changes, you just have to repeat the steps (except for `repo start`
-which you should not repeat) while using `git commit --amend` instead of `git commit -a -s` so that
-you avoid having multiple commits for this single change. Gerrit will then recognize these changes
-as a new patch set and figure out everything for you when you upload.
-
-### Squashing multiple commits ###
-
-Your patches should be single commits. If you have multiple commits laying around, squash them by
-running `git rebase -i HEAD~<commit-count>` before uploading.
-
-### Writing good commit messages ###
-
-You will be asked a commit message when you run `git commit`. Writing a good commit message is
-often hard, but it is also essential as these messages will stay around with your changes and
-will be seen by others when looking back at the project history.
-
-A few general pointers to keep in mind when writing the commit message are that you should use
-imperative as it matches the style used by the `git merge` and `git revert` commands (that means
-"Fix bug" is preferred over "Fixes bug", "Fixed bug" and others) and that you should write the
-first line of the commit message as a summary of the commit. It should always be capitalized and
-followed by an empty line. You might optionally include the project name at the start and try to
-keep it to 50 characters when possible as it is used in various logs, including "one line" logs.
-
-## Working on translations ##
-
-If you want to help on translating PA to your desired language(s), you can use Crowdin
-which provides an easy interface to submit translations.
-
-For accessing PA´s Crowdin, visit http://crowdin.aospa.co.
-
-## Using our assets ##
 
 ### Code ###
 
@@ -193,7 +111,7 @@ This means that you are allowed to modify the aforementioned assets in any way y
 you are free to share the originals and/or the modified work. However, you are not allowed
 to use the assets for commercial purposes and you must provide attribution at all times which
 means you have to include a short note about the license used (CC BY-NC 4.0), the original
-author/authors (Paranoid Android Project or AOSPA) and inform about any changes that have been
-made. A link to the [website](http://aospa.co/) should usually be included as well.
+author/authors (PixelDust Project) and inform about any changes that have been
+made.
 
 You can reach the full legal text at http://creativecommons.org/licenses/by-nc/4.0/
