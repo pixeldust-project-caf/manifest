@@ -69,9 +69,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" groups="pdcaf" />
 
   <!-- Vendor -->
-  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" groups="pdcaf" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
-  </project>
+  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_commonsys_telephony" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
