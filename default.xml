@@ -729,5 +729,6 @@
 
   <!-- Pixeldust additions -->
   <include name="manifests/pixeldust.xml"/>
+  <include name="manifests/devices.xml"/>
 
 </manifest>
