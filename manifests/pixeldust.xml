@@ -131,4 +131,5 @@
   <remove-project name="platform/packages/apps/Launcher2"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera"/>
   <remove-project name="platform/hardware/qcom/thermal"/>
+  <remove-project name="device/qcom/sepolicy"/>
 </manifest>
