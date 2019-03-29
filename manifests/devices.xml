@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="glab"
+           fetch="https://gitlab.com/spezi77/" />
+
   <!-- Device & Kernel -->
   <!-- Marlin -->
   <project path="device/google/marlin" name="android_device_google_marlin" remote="pdcaf" />
@@ -8,6 +11,7 @@
 
   <!-- Vendor -->
   <project name="pixeldustproject-p/android_vendor_google_pixels" path="vendor/google_devices" remote="github" revision="ppr2.181005.003" />
+  <project name="vendor_googleapps" path="vendor/googleapps" remote="glab" revision="p" />
 
   <!-- AOSP hals -->
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="aosp" />
