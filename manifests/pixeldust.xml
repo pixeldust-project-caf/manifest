@@ -69,6 +69,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" groups="pdcaf" />
 
   <!-- Vendor -->
+  <remove-project name="device/qcom/sepolicy"/>
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="pdcaf" groups="pdcaf" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_commonsys_telephony" remote="pdcaf" groups="pdcaf" />
