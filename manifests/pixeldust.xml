@@ -88,10 +88,16 @@
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="pdcaf" groups="pdcaf" />
   <project path="vendor/blobscript" name="android_vendor_blobscript" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pdcaf" />
 
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf" groups="pdcaf" />
+
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="pixeldustproject-p/prebuilts_clang_host_linux-x86" remote="github" revision="p" />
 
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>

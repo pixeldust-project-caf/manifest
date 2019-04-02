@@ -28,6 +28,9 @@
            sync-j="4"
            sync-c="true"/>
 
+  <remote  name="glab"
+           fetch="https://gitlab.com/spezi77/" />
+
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
   <project name="device/common"/>
   <project name="device/generic/arm64"/>
@@ -729,6 +732,5 @@
 
   <!-- Pixeldust additions -->
   <include name="manifests/pixeldust.xml"/>
-  <include name="manifests/devices.xml"/>
 
 </manifest>
