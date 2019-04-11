@@ -47,12 +47,17 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf" groups="pdcaf" />
+  <project path="frameworks/opt/slimrecent" name="android_frameworks_opt_slimrecent" remote="pdcaf" groups="pdcaf" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pdcaf" groups="pdcaf" />
   <project path="packages/apps/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pdcaf" groups="pdcaf" />
   <project path="packages/apps/PixelDustWallpapers" name="android_packages_apps_PixelDustWallpapers" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdcaf" groups="pdcaf" />
+  <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="pdcaf" groups="pdcaf" />
+  <project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="pdcaf" groups="pdcaf" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
