@@ -94,6 +94,8 @@
   <project path="vendor/blobscript" name="android_vendor_blobscript" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pdcaf" />
+  <project path="vendor/support" name="android_vendor_support" remote="pdcaf" groups="pdcaf" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" groups="pdcaf" />
 
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />
