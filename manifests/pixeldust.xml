@@ -47,6 +47,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf" groups="pdcaf" />
+  <project path="frameworks/pixeldust" name="android_frameworks_pixeldust" remote="pdcaf" groups="pdcaf" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
