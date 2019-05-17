@@ -5,6 +5,8 @@
   <project path="manifest" name="manifest" remote="pdcaf" groups="pdcaf" />
 
   <!-- Build repositories -->
+  <remove-project name="platform/art" />
+  <project path="art" name="android_art" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/build" />
   <project path="build/make" name="android_build_make" remote="pdcaf" groups="pdcaf" >
     <copyfile src="core/root.mk" dest="Makefile" />
