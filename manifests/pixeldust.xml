@@ -122,7 +122,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <project path="prebuilts/clang/host/linux-x86" name="pixeldustproject-p/prebuilts_clang_host_linux-x86" remote="github" revision="p" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pdcaf" groups="pdcaf" />
 
   <!-- Obsolete Packages -->
   <remove-project name="abl/tianocore/edk2"/>
