@@ -38,6 +38,8 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" groups="pdcaf" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" groups="pdcaf" />
@@ -63,6 +65,8 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pdcaf" groups="pdcaf" />
   <project path="packages/apps/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pdcaf" groups="pdcaf" />
   <project path="packages/apps/PixelDustWallpapers" name="android_packages_apps_PixelDustWallpapers" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdcaf" groups="pdcaf" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="pdcaf" groups="pdcaf" />
@@ -77,6 +81,7 @@
   <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="android_external_selinux" remote="pdcaf" groups="pdcaf" />
   <project path="external/exfat" name="android_external_exfat" remote="pdcaf" groups="pdcaf" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="pdcaf" groups="pdcaf" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
