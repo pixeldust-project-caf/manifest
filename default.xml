@@ -745,6 +745,7 @@
   <project name="platform/test/vts-testcase/security" path="test/vts-testcase/security"/>
   <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk"/>
   <project name="platform/tools/acloud" path="tools/acloud"/>
+  <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" />
   <project name="platform/tools/apksig" path="tools/apksig"/>
   <project name="platform/tools/apkzlib" path="tools/apkzlib"/>
   <project name="platform/tools/asuite" path="tools/asuite"/>
