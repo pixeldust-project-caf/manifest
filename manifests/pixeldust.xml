@@ -82,6 +82,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="pdcaf" groups="pdcaf" />
   <project path="external/exfat" name="android_external_exfat" remote="pdcaf" groups="pdcaf" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="pdcaf" groups="pdcaf" />
+  <project path="external/google" name="android_external_google" remote="pdcaf" groups="pdcaf" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
