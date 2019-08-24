@@ -89,6 +89,8 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="pdcaf" groups="pdcaf" />
 
   <!-- System -->
+  <remove-project name="platform/system/chre" />
+  <project path="system/chre" name="android_system_chre" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="android_system_core" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/sepolicy" />
