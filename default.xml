@@ -819,6 +819,9 @@
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
   <project name="toolchain/pgo-profiles"/>
 
+  <!-- Remove obsolete packages -->
+  <include name="manifests/remove.xml"/>
+
   <!-- Pixeldust additions -->
   <include name="manifests/pixeldust.xml"/>
 
