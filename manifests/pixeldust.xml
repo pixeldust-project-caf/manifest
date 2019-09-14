@@ -40,16 +40,16 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" groups="pdcaf" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" groups="pdcaf" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" remote="aosp" />
-  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" remote="aosp" groups="qcom_sdm845" revision="pie-platform-release" />
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" remote="aosp" groups="qcom_sdm845" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="pdcaf" groups="pdcaf,vendor,qcom_sdm845" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
   </project>
-  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" remote="aosp" groups="qcom_sdm845" revision="pie-platform-release" />
-  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" groups="qcom_sdm845" revision="pie-platform-release" />
-  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" remote="aosp" groups="qcom_sdm845" revision="pie-platform-release" />
-  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" remote="aosp" groups="qcom_sdm845" revision="pie-platform-release" />
-  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" remote="aosp" groups="qcom_sdm845" revision="pie-platform-release" />
+  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" remote="aosp" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" remote="aosp" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" remote="aosp" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" remote="aosp" groups="qcom_sdm845" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
