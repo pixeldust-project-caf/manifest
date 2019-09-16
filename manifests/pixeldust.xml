@@ -123,7 +123,6 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
-  <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom-opensource_fm" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom-opensource_fm-commonsys" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
