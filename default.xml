@@ -716,7 +716,7 @@
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
   <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb"/>
-  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator"/>
+  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator" revision="vendor-qti-vibrator.lnx.1.0.r5"/>
   <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys/wfd"/>
   <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig"/>
   <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api"/>
