@@ -127,8 +127,6 @@
   <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf" groups="pdcaf" />
-  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
-  <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom-opensource_fm-commonsys" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
