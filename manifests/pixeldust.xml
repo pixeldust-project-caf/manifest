@@ -26,7 +26,10 @@
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="pdcaf" groups="pdcaf" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="pdcaf" groups="pdcaf" >
+    <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
+    <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
+  </project>
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdcaf" groups="pdcaf" />
 
   <!-- Hardware -->
@@ -118,10 +121,16 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="android_vendor_qcom_opensource_commonsys_bluetooth" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
+  <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom-opensource_fm-commonsys" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="android_vendor_qcom_opensource_commonsys_cryptfs_hw" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="pdcaf" groups="pdcaf" />
   <project path="vendor/blobscript" name="android_vendor_blobscript" remote="pdcaf" groups="pdcaf" />
