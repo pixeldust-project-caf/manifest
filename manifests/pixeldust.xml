@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="pdcaf" groups="pdcaf" />
 
@@ -142,5 +145,8 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf" groups="pdcaf" />
 
   <!-- Prebuilts -->
+
+  <!-- Pixel Gapps -->
+  <project path="vendor/pixelgapps" name="spezi77/android_vendor_pixelgapps" remote="gitlab" revision="ten" />
 
 </manifest>
