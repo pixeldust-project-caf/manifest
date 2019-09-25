@@ -31,6 +31,7 @@
   <remove-project name="device/linaro/poplar-kernel"/>
   <remove-project name="device/qcom/common" />
   <remove-project name="device/sample"/>
+  <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
   <remove-project name="platform/vendor/opensource/audio-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>
