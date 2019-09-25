@@ -825,4 +825,7 @@
   <!-- Pixeldust additions -->
   <include name="manifests/pixeldust.xml"/>
 
+  <!-- Lineage snippets -->
+  <include name="manifests/lineage.xml"/>
+
 </manifest>
