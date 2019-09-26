@@ -9,4 +9,7 @@
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
+  <!-- System -->
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" clone-depth="1" />
+
 </manifest>
