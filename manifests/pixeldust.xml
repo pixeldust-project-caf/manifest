@@ -28,11 +28,6 @@
   <project path="vendor/qcom/sdclang-8.0/linux-x86" name="proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="blobs" revision="quartz" />
 
   <!-- Device -->
-  <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="pdcaf" groups="pdcaf" >
-    <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
-    <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
-  </project>
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdcaf" groups="pdcaf" />
 
   <!-- Hardware -->
@@ -127,7 +122,10 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
-  <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="pdcaf" groups="pdcaf" />
+  <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="pdcaf" groups="pdcaf" >
+    <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
+    <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
+  </project>
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
