@@ -56,4 +56,5 @@
   <remove-project name="platform/packages/apps/Gallery"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera"/>
   <remove-project name="platform/hardware/qcom/thermal"/>
+  <remove-project name="platform/prebuilts/r8"/>
 </manifest>
