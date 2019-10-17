@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-10.0.0_r3"
+           revision="refs/tags/android-10.0.0_r6"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"/>
 
@@ -24,7 +24,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.8.1.r1-09500-sm8150.0"
+  <default revision="refs/tags/LA.UM.8.1.r1-10200-sm8150.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
