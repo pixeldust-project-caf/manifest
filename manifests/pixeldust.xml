@@ -105,6 +105,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="android_system_vold" remote="pdcaf" groups="pdcaf" />
 
   <!-- Vendor -->
   <remove-project name="device/qcom/sepolicy"/>
