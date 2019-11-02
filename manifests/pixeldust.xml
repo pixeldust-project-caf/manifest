@@ -29,6 +29,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="platform/build/blueprint" />
+  <project path="build/blueprint" name="android_build_blueprint" remote="pdcaf" groups="pdcaf" />
   <project path="vendor/qcom/sdclang-8.0/linux-x86" name="proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="blobs" revision="quartz" />
 
   <!-- Device -->
