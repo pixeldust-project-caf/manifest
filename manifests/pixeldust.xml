@@ -151,4 +151,8 @@
   <!-- Pixel Gapps -->
   <project path="vendor/pixelgapps" name="spezi77/android_vendor_pixelgapps" remote="gitlab" revision="ten" />
 
+  <!-- GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="pdcaf" groups="pdcaf" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="pdcaf" groups="pdcaf" clone-depth="1" />
+
 </manifest>
