@@ -8,6 +8,10 @@
            fetch="https://github.com/pixeldust-project-x"
            revision="refs/heads/ten" />
 
+  <remote  name="pdd"
+           fetch="https://github.com/PixelDust-Devices"
+           revision="refs/heads/quiche" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="pdcaf" groups="pdcaf" />
 
