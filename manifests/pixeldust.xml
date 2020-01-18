@@ -181,6 +181,7 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="android_vendor_qcom_opensource_commonsys_cryptfs_hw" remote="pdcaf" groups="pdcaf" />
+  <project path="vendor/support" name="android_vendor_support" remote="pdcaf" groups="pdcaf" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" groups="pdcaf" />
 
   <!-- Recovery -->
