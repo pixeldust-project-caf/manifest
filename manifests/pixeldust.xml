@@ -184,4 +184,10 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="pdcaf" groups="pdcaf" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="pdcaf" groups="pdcaf" clone-depth="1" />
 
+  <!-- Use Google servers for faster sync -->
+  <remove-project name="platform/prebuilts/gradle-plugin" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" clone-depth="1" />
+  <remove-project name="platform/tools/external/gradle" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" remote="aosp" clone-depth="1" />
+
 </manifest>
