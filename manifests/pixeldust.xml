@@ -167,8 +167,8 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf" groups="pdcaf" />
 
   <!-- Pixel -->
-  <project path="external/nos/host/android" name="platform/external/nos/host/android" remote="aosp" groups="pixel" />
-  <project path="external/nos/test/system-test-harness" name="platform/external/nos/test/system-test-harness" remote="aosp" groups="pixel" />
+  <project path="external/nos/host/android" name="platform/external/nos/host/android" remote="aosp" groups="pixel" revision="android10-release" />
+  <project path="external/nos/test/system-test-harness" name="platform/external/nos/test/system-test-harness" remote="aosp" groups="pixel" revision="android10-release" />
 
   <!-- Pixel Gapps -->
   <project path="vendor/pixelgapps" name="spezi77/android_vendor_pixelgapps" remote="gitlab" revision="ten" />
