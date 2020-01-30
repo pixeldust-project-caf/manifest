@@ -67,8 +67,6 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="pdcaf" groups="pdcaf" />
-  <remove-project name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pdcaf" groups="pdcaf" />
   <project path="packages/apps/OmniRecord" name="android_packages_apps_OmniRecord" remote="pdx" />
   <remove-project name="platform/packages/apps/PackageInstaller"/>
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="pdcaf" groups="pdcaf" />
