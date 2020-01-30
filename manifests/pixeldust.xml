@@ -43,8 +43,6 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" groups="pdcaf" />
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf" groups="pdcaf" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" groups="pdcaf" />
