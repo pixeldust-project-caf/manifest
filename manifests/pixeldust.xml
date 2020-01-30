@@ -168,9 +168,7 @@
 
   <!-- Pixel -->
   <project path="external/nos/host/android" name="platform/external/nos/host/android" remote="aosp" groups="pixel" />
-  <project path="external/nos/host/generic" name="platform/external/nos/host/generic" remote="aosp" groups="pixel" />
   <project path="external/nos/test/system-test-harness" name="platform/external/nos/test/system-test-harness" remote="aosp" groups="pixel" />
-  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" remote="aosp" groups="pixel" />
 
   <!-- Pixel Gapps -->
   <project path="vendor/pixelgapps" name="spezi77/android_vendor_pixelgapps" remote="gitlab" revision="ten" />
