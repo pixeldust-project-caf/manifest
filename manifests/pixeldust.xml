@@ -135,6 +135,8 @@
   <project path="system/core" name="android_system_core" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="android_system_extras" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/system/keymaster" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/update_engine" />
