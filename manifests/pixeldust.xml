@@ -103,6 +103,8 @@
   <project path="external/skia" name="android_external_skia" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="android_external_sqlite" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/external/toybox" />
+  <project path="external/toybox" name="android_external_toybox" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/selinux" />
