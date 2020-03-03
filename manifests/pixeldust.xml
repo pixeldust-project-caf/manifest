@@ -121,6 +121,8 @@
   <remove-project name="platform/prebuilts/build-tools" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="pdcaf" groups="pdcaf" />
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="Haseo97/Avalon-Clang-11.0.1" remote="github" clone-depth="1" revision="11.0.1" />
+  <remove-project name="platform/prebuilts/vndk/v28" />
+  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
