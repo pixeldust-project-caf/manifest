@@ -63,6 +63,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf" groups="pdcaf" />
+  <project path="frameworks/opt/slimrecent" name="android_frameworks_opt_slimrecent" remote="pdcaf" groups="pdcaf" /> 
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="pdcaf" groups="pdcaf" />
   <project path="frameworks/pixeldust" name="android_frameworks_pixeldust" remote="pdcaf" groups="pdcaf" />
