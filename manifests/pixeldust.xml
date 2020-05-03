@@ -141,6 +141,8 @@
   <project path="system/keymaster" name="android_system_keymaster" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/system/tools/hidl" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/vold" />
