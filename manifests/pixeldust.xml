@@ -143,6 +143,8 @@
   <project path="system/extras" name="android_system_extras" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/keymaster" />
   <project path="system/keymaster" name="android_system_keymaster" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/system/security" />
+  <project path="system/security" name="android_system_security" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/tools/hidl" />
