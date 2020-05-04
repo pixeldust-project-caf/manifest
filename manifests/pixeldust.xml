@@ -101,6 +101,8 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/jemalloc_new" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/external/libexif" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/libpng" />
