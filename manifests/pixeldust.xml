@@ -39,6 +39,7 @@
 
   <!-- Device -->
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdcaf" groups="pdcaf" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="pdcaf" groups="pdcaf" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
