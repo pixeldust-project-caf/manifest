@@ -120,6 +120,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="pdcaf" groups="pdcaf" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="pdcaf" groups="pdcaf" />
   <project path="external/google" name="android_external_google" remote="pdcaf" groups="pdcaf" />
+  <project path="external/libbfqio" name="android_external_libbfqio" remote="pdcaf" groups="pdcaf" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
