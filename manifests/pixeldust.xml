@@ -123,7 +123,8 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="pdcaf" groups="pdcaf" />
   <project path="external/google" name="android_external_google" remote="pdcaf" groups="pdcaf" />
   <project path="external/libbfqio" name="android_external_libbfqio" remote="pdcaf" groups="pdcaf" />
-
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="pdcaf" groups="pdcaf" />
+  
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="pdcaf" groups="pdcaf" clone-depth="1" />
