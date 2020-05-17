@@ -56,7 +56,7 @@ and their change histories.
 # The -j# option specifies the number of concurrent download threads to run.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync -j4
+$ repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
 ```
 
 #### Syncing specific projects ####
@@ -72,7 +72,7 @@ a large change that spans across multiple projects.
 # For example, enter pixeldust-project-caf/android_frameworks_base or
 # frameworks/base to sync the frameworks/base repository
 
-$ repo sync PROJECT
+$ repo sync PROJECT -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
 ```
 
 ## Building ##
