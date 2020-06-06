@@ -114,8 +114,12 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/external/gptfdisk" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/jemalloc_new" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/libjpeg-turbo" />
