@@ -126,6 +126,8 @@
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="android_external_libpng" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/external/nos/host/generic" />
+  <project path="external/nos/host/generic" name="android_external_nos_host_generic" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="android_external_skia" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/sqlite" />
@@ -141,7 +143,7 @@
   <project path="external/google" name="android_external_google" remote="pdcaf" groups="pdcaf" />
   <project path="external/libbfqio" name="android_external_libbfqio" remote="pdcaf" groups="pdcaf" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="pdcaf" groups="pdcaf" />
-  
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="pdcaf" groups="pdcaf" clone-depth="1" />
