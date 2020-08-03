@@ -122,6 +122,8 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/jemalloc_new" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/external/libese" />
+  <project path="external/libese" name="android_external_libese" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/libpng" />
