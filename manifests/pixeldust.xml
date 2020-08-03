@@ -166,6 +166,8 @@
   <project path="system/extras" name="android_system_extras" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/keymaster" />
   <project path="system/keymaster" name="android_system_keymaster" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="android_system_media" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="android_system_netd" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/security" />
@@ -235,7 +237,7 @@
   <remove-project name="platform/prebuilts/vndk/v28" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" clone-depth="1" remote="aosp" />
 
-  <!-- June 2020 SPL -->
+  <!-- August 2020 SPL -->
   <remove-project name="platform/external/avb" />
   <project path="external/avb" name="platform/external/avb" remote="aosp" />
   <remove-project name="platform/external/bouncycastle" />
