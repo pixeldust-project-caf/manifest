@@ -53,6 +53,7 @@
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="android_hardware_ril" remote="pdcaf" groups="pdcaf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdcaf" groups="pdcaf" />
 
   <!-- Kernel-->
   <remove-project name="kernel/configs" />
