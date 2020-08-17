@@ -228,7 +228,6 @@
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
-  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
