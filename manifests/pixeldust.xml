@@ -129,6 +129,8 @@
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="android_external_libpng" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/external/libunwind_llvm" />
+  <project path="external/libunwind_llvm" name="android_external_libunwind_llvm" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/nos/host/generic" />
   <project path="external/nos/host/generic" name="android_external_nos_host_generic" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/skia" />
@@ -165,6 +167,8 @@
   <project path="system/core" name="android_system_core" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="android_system_extras" remote="pdcaf" groups="pdcaf" />
+  <remove-project name="platform/system/libhidl" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/keymaster" />
   <project path="system/keymaster" name="android_system_keymaster" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/system/media" />
