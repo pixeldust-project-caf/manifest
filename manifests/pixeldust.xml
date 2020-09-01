@@ -117,6 +117,7 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="pdcaf" groups="pdcaf" />
+  <project path="external/motorola/faceunlock" name="caiwx0806/external_motorola_faceunlock" remote="gitlab" revision="ten" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="pdcaf" groups="pdcaf" />
   <remove-project name="platform/external/gptfdisk" />
