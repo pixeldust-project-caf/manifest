@@ -27,5 +27,6 @@
            revision="rioja" />
 
   <include name="pixeldust.xml"/>
+  <include name="obsolete.xml"/>
 
 </manifest>
