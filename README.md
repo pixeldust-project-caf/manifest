@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/pixeldust-project-caf/manifest -b quiche
+$ repo init -u https://github.com/pixeldust-project-caf/manifest -b rioja
 ```
 
 ### Downloading the source tree ###
@@ -93,7 +93,6 @@ $ ./rom-build.sh DEVICE
 We're open source and patches are always welcome!
 
 We will later add Gerrit Code Review for allowing contributions. If you would like to join the team please contact us via Telegram: https://t.me/spezi77
-
 
 ### Code ###
 
