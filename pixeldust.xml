@@ -48,7 +48,7 @@
 
   <!-- Vendor -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
 
   <!-- Vendor (CAF) -->
