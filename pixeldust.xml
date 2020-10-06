@@ -43,6 +43,8 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
