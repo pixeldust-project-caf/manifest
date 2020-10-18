@@ -82,6 +82,9 @@
   <remove-project name="platform/system/core" />
   <project path="system/core" name="android_system_core" remote="pdcaf" />
 
+  <remove-project name="platform/system/memory/lmkd" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf" />
+
   <!-- Vendor -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
     <linkfile src="build.sh" dest="rom-build.sh" />
