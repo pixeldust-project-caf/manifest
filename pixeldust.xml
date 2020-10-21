@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Build and Core-->
+  <!-- Build and Core -->
   <remove-project name="platform/art" />
   <project path="art" name="android_art" remote="pdcaf" />
   <remove-project name="platform/bionic" />
@@ -21,6 +21,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Bootable -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf" />
 
   <!-- Device -->
   <remove-project name="kernel/build" />
