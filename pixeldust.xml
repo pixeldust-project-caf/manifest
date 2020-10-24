@@ -91,6 +91,8 @@
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" />
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="android_system_vold" remote="pdcaf" />
 
   <!-- Vendor -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
