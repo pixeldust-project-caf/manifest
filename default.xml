@@ -44,6 +44,7 @@
            fetch="https://github.com/PixelDust-Devices"
            revision="rioja" />
 
+  <include name="google.xml"/>
   <include name="pixeldust.xml"/>
   <include name="obsolete.xml"/>
 
