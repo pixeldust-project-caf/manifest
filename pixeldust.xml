@@ -21,6 +21,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="platform/platform_testing" />
+  <project path="platform_testing" name="android_platform_testing" remote="pdcaf" />
 
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
