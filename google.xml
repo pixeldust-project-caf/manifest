@@ -32,4 +32,9 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" remote="aosp_hardware" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aosp_hardware" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" remote="aosp_hardware" />
+
+  <remove-project name="platform/frameworks/opt/net/wifi"/>
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="aosp" />
+  <remove-project name="platform/external/wpa_supplicant_8"/>
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" />
 </manifest>
