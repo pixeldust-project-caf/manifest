@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-19.0" />
+
+  <remote name="lineage17.0"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-17.0" />
+
+  <remote name="lineage18.0"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-18.0" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage17.0" clone-depth="1" />
+  <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage18.0" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="lineage" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="lineage" clone-depth="1" />>
+
+</manifest>
