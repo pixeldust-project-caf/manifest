@@ -9,7 +9,6 @@
   <project name="kernel/build" path="device/qcom/kernelscripts" remote="caf_vendor"/>
   <project groups="cyborg" name="kernel/msm-5.4" remote="caf_vendor"/>
   <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="caf_vendor"/>
-  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" remote="caf_vendor"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="caf_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
