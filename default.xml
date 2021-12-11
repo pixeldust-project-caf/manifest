@@ -46,6 +46,7 @@
   <include name="manifests/vendor.xml" />
   <include name="manifests/hardware.xml" />
   <include name="manifests/remove.xml" />
+  <include name="manifests/others.xml" />
   <include name="manifests/pixeldust.xml" />
 
 </manifest>
