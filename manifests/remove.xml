@@ -44,6 +44,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/nxp/secure_element" />
   <remove-project name="platform/hardware/libhardware" />
@@ -100,6 +101,7 @@
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
