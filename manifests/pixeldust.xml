@@ -34,6 +34,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdcaf" />
 
@@ -50,6 +51,7 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="pdcaf" />
   <project path="system/core" name="android_system_core" remote="pdcaf" />
+  <project path="system/vold" name="android_system_vold" remote="pdcaf" />
 
   <!-- Vendor -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
