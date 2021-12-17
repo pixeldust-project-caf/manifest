@@ -16,6 +16,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" remote="aosp" />
+  <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="aosp" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" remote="aosp" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" remote="aosp" />
