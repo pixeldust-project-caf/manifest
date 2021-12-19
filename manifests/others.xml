@@ -17,6 +17,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
 
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP"
+          revision="sc" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage17.0" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage18.0" clone-depth="1" />
@@ -30,5 +34,9 @@
 
   <!-- LineageOS HALs -->
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage18.1" />
+
+  <!-- ProtonAOSP -->
+  <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
+  <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
 
 </manifest>
