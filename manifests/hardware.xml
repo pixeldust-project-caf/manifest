@@ -13,12 +13,12 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" remote="aosp" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="aosp" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" />
+  <!--project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" /-->
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" remote="aosp" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="aosp" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" remote="aosp" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="aosp" />
+  <!--project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="aosp" /-->
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" remote="aosp" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="aosp" />
@@ -34,7 +34,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
-  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" remote="aosp" />
+  <!--project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" remote="aosp" /-->
   <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" />
   <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" remote="aosp" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" remote="aosp" />
