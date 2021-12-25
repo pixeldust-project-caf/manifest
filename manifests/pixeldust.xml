@@ -63,6 +63,7 @@
   </project>
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="pdcaf" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
   <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="pdgms" />
 
 </manifest>
