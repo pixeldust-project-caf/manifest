@@ -634,7 +634,7 @@
   <project name="platform/external/wayland-protocols" path="external/wayland-protocols"/>
   <project name="platform/external/webp" path="external/webp"/>
   <project name="platform/external/webrtc" path="external/webrtc"/>
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <!--project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/-->
   <project name="platform/external/wycheproof" path="external/wycheproof"/>
   <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project name="platform/external/xz-embedded" path="external/xz-embedded"/>
