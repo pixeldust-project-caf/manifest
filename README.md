@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/pixeldust-project-caf/manifest -b saltedcaramel
+$ repo init -u https://github.com/pixeldust-project-caf/manifest -b sc-caf
 ```
 
 ### Downloading the source tree ###
