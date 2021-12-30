@@ -1,3 +1,4 @@
+![PixelDust Project](https://github.com/pixeldust-project-caf/manifest/raw/saltedcaramel/PixelDust_Header.png)
 # PixelDust Project CAF - SaltedCaramel #
 
 ## Setting up your machine ##
