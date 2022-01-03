@@ -41,6 +41,7 @@
   <!-- ProtonAOSP -->
   <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
+  <project name="android_vendor_lawnicons" path="vendor/lawnicons" remote="proton" groups="proton" />
 
   <!-- Lawnchair -->
   <project name="android_vendor_lawnchair" path="vendor/lawnchair" remote="arrow" />
