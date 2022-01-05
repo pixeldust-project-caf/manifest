@@ -100,8 +100,8 @@ You can see the status of all patches at [Gerrit Code Review](https://gerrit.pix
 $ cd WORKSPACE
 
 # Create a new branch on the specific project you are going to work on
-# For example, `repo start fix-clock PDCAF/android_frameworks_base`
-$ repo start BRANCH PDCAF/PROJECT
+# For example, `repo start fix-clock pixeldust-project-caf/android_frameworks_base`
+$ repo start BRANCH pixeldust-project-caf/PROJECT
 # You can also use the project path in place of the project name.
 # The PROJECT_DIR is the portion after the android_ prefix on
 # the PixelDust Github.  For example, android_frameworks_base translates
@@ -124,23 +124,23 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/PDCAF/PROJECT HEAD:refs/for/saltedcaramel
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel
 ```
 
 ### Extra commands for Gerrit ###
 
 ```bash
 # If you desire to upload a change as private use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/PDCAF/PROJECT HEAD:refs/for/saltedcaramel%private
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%private
 
 # If you desire to upload a change as W.I.P(Work in Progress) use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/PDCAF/PROJECT HEAD:refs/for/saltedcaramel%wip
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%wip
 
 # After that, if you want to make the commit public you can use the UI tools on PixelDust Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/PDCAF/PROJECT HEAD:refs/for/saltedcaramel%remove-private
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%remove-private
 
 # If you want to unset the W.I.P status on your commit, you can use UI tools on PixelDust Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/PDCAF/PROJECT HEAD:refs/for/saltedcaramel%ready
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%ready
 ```
 
 ### Making additional changes ###
