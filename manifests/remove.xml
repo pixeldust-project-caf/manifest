@@ -38,6 +38,9 @@
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/vendor-common" />
 
+  <!-- External -->
+  <remove-project name="platform/external/jemalloc_new" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
