@@ -55,6 +55,7 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="pdcaf" />
   <project path="system/core" name="android_system_core" remote="pdcaf" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf" />
   <project path="system/security" name="android_system_security" remote="pdcaf" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" />
   <project path="system/vold" name="android_system_vold" remote="pdcaf" />
