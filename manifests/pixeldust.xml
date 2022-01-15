@@ -25,8 +25,8 @@
   <project path="device/common" name="android_device_common" remote="pdcaf" />
 
   <!-- External -->
-  <remove-project name="platform/external/fastrpc" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf" />
+  <project path="external/scudo" name="android_external_scudo" remote="pdcaf" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pdcaf" />
