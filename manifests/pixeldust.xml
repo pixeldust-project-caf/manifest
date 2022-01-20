@@ -67,7 +67,6 @@
     <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
-  <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="pdcaf" />
   <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="pdgms" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
