@@ -23,6 +23,7 @@
 
   <!-- Device -->
   <project path="device/common" name="android_device_common" remote="pdcaf" />
+  <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdcaf" />
 
   <!-- External -->
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf" />
@@ -49,6 +50,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdcaf" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pdcaf" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pdcaf" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pdcaf" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdcaf" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdcaf" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdcaf" />
@@ -59,6 +61,7 @@
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf" />
   <project path="system/security" name="android_system_security" remote="pdcaf" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="pdcaf" />
   <project path="system/vold" name="android_system_vold" remote="pdcaf" />
 
   <!-- Vendor -->
@@ -68,6 +71,7 @@
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="pdgms" />
+  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdcaf" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
