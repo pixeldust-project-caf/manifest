@@ -70,7 +70,8 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
 
-  <!-- Vendor (QCOM) -->
+  <!-- Vendor -->
+  <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
