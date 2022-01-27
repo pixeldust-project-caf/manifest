@@ -106,4 +106,7 @@
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
 
+  <!-- Vendor -->
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+
 </manifest>
