@@ -55,6 +55,7 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pdcaf" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pdcaf" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pdcaf" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pdcaf" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdcaf" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdcaf" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdcaf" />
