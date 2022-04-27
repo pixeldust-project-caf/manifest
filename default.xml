@@ -28,7 +28,7 @@
 
   <remote  name="pdcaf"
            fetch="https://github.com/pixeldust-project-caf"
-           revision="refs/heads/saltedcaramel" />
+           revision="refs/heads/sc-v2" />
 
   <remote  name="pdd"
            fetch="https://github.com/pixeldust-devices"
