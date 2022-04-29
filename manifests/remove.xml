@@ -42,6 +42,7 @@
   <remove-project name="device/qcom/vendor-common" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/jemalloc_new" />
