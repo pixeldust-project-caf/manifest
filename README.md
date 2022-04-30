@@ -42,7 +42,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/pixeldust-project-caf/manifest -b saltedcaramel
+$ repo init -u https://github.com/pixeldust-project-caf/manifest -b sc-v2
 ```
 
 ### Downloading the source tree ###
@@ -124,23 +124,23 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/sc-v2
 ```
 
 ### Extra commands for Gerrit ###
 
 ```bash
 # If you desire to upload a change as private use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%private
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/sc-v2%private
 
 # If you desire to upload a change as W.I.P(Work in Progress) use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%wip
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/sc-v2%wip
 
 # After that, if you want to make the commit public you can use the UI tools on PixelDust Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%remove-private
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/sc-v2%remove-private
 
 # If you want to unset the W.I.P status on your commit, you can use UI tools on PixelDust Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/saltedcaramel%ready
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/sc-v2%ready
 ```
 
 ### Making additional changes ###
