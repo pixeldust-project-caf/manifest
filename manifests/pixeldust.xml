@@ -44,6 +44,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="pdcaf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdcaf" />
 
   <!-- Manifest -->
