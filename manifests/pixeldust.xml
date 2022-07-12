@@ -32,6 +32,7 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf" />
   <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf" />
+  <project path="external/mksh" name="android_external_mksh" remote="pdcaf" />
   <project path="external/scudo" name="android_external_scudo" remote="pdcaf" />
 
   <!-- Frameworks -->

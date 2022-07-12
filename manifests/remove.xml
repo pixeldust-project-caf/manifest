@@ -46,6 +46,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/scudo" />
 
   <!-- Frameworks -->
