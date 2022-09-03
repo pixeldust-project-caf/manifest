@@ -31,21 +31,12 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="lineage" clone-depth="1" />>
-  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="sapphire" />
+  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="disabled" />
 
   <!-- LineageOS additions -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- LineageOS HALs -->
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage18.1" />
-
-  <!-- ProtonAOSP -->
-  <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
-  <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
-  <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" groups="proton" />
-  <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
-
-  <!-- Lawnchair -->
-  <project name="android_vendor_lawnchair" path="vendor/lawnchair" remote="arrow" />
 
 </manifest>

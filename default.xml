@@ -4,21 +4,27 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-12.1.0_r20"
+           revision="refs/tags/android-13.0.0_r3"
+           sync-c="true"
+           sync-tags="false"
            sync-j="8" />
 
-  <remote  name="caf_system"
+  <remote  name="clo_system"
            fetch="https://git.codelinaro.org/clo/la"
            review="codelinaro.org"
+           sync-c="true"
+           sync-tags="false"
            sync-j="8" />
 
-  <remote  name="caf_vendor"
+  <remote  name="clo_vendor"
            fetch="https://git.codelinaro.org/clo/la"
+           sync-c="true"
+           sync-tags="false"
            review="codelinaro.org"
-           revision="refs/tags/LA.UM.9.14.r1-20200.01-LAHAINA.QSSI12.0"/>
+           revision="refs/tags/LA.UM.9.14.2.r1-01700-QCM6490.QSSI12.0"/>
 
-  <default revision="refs/tags/LA.QSSI.12.0.r1-08700-qssi.0"
-           remote="caf_system"/>
+  <default revision="refs/tags/LA.QSSI.13.0.r1-05800-qssi.0"
+           remote="clo_system"/>
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -28,19 +34,15 @@
 
   <remote  name="pdcaf"
            fetch="https://github.com/pixeldust-project-caf"
-           revision="refs/heads/sc-v2" />
+           revision="refs/heads/tartufo" />
 
   <remote  name="pdd"
            fetch="https://github.com/pixeldust-devices"
-           revision="refs/heads/12" />
+           revision="refs/heads/13" />
 
   <remote  name="pdgms"
            fetch="https://gitlab.com/pixeldust-vendor"
-           revision="refs/heads/12" />
-
-  <remote  name="pd12"
-           fetch="https://github.com/pixeldust-twelve"
-           revision="refs/heads/12" />
+           revision="refs/heads/13" />
 
   <include name="manifests/system.xml" />
   <include name="manifests/vendor.xml" />

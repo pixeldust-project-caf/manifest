@@ -5,7 +5,6 @@
   <project path="art" name="android_art" remote="pdcaf" />
   <project path="bionic" name="android_bionic" remote="pdcaf" />
   <project path="build/make" name="android_build" remote="pdcaf" >
-    <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -18,72 +17,45 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- Bootable -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf" />
-
   <!-- CTS -->
   <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
 
   <!-- Device -->
   <project path="device/common" name="android_device_common" remote="pdcaf" />
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdcaf" />
+  <project path="device/qcom/vendor-common" name="android_device_qcom_vendor-common" remote="pdcaf" />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf" />
-  <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf" />
-  <project path="external/mksh" name="android_external_mksh" remote="pdcaf" />
-  <project path="external/scudo" name="android_external_scudo" remote="pdcaf" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
+  <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="pdcaf" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdcaf" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="pdcaf" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdcaf" />
 
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="pdcaf" />
 
   <!-- Packages -->
-  <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pdcaf" />
-  <project path="packages/apps/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pdcaf" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdcaf" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pdcaf" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pdcaf" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pdcaf" />
-  <project path="packages/modules/CellBroadcastService" name="android_packages_modules_CellBroadcastService" remote="pdcaf" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pdcaf" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdcaf" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdcaf" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdcaf" />
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="pdcaf" />
   <project path="system/core" name="android_system_core" remote="pdcaf" />
-  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf" />
-  <project path="system/security" name="android_system_security" remote="pdcaf" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="pdcaf" />
-  <project path="system/vold" name="android_system_vold" remote="pdcaf" />
 
   <!-- Vendor -->
-  <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" remote="pdcaf" />
-  <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="pdcaf" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
     <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="pdgms" />
-  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdcaf" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
 

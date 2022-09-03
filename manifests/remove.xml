@@ -4,7 +4,6 @@
   <!-- Build -->
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/build/soong" />
 
@@ -18,8 +17,6 @@
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/goldfish" />
-  <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -43,24 +40,19 @@
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
-  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/fastrpc" />
-  <remove-project name="platform/external/jemalloc_new" />
-  <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Kernel -->
   <remove-project name="kernel/build" />
@@ -70,6 +62,7 @@
   <remove-project name="platform/vendor/opensource/dataipa" />
   <remove-project name="platform/vendor/opensource/display-drivers" />
   <remove-project name="platform/vendor/opensource/video-driver" />
+  <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi" />
   <remove-project name="platform/vendor/qcom/opensource/datarmnet" />
   <remove-project name="platform/vendor/qcom/opensource/datarmnet-ext" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
@@ -78,7 +71,6 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
 
   <!-- Vendor -->
-  <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
@@ -100,14 +92,6 @@
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/modules/CellBroadcastService" />
-  <remove-project name="platform/packages/modules/Connectivity" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
 
@@ -124,24 +108,14 @@
   <remove-project name="kernel/prebuilts/mainline/arm64"/>
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- System -->
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/memory/lmkd" />
-  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/vold" />
 
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
 
