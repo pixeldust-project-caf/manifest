@@ -41,6 +41,9 @@
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdcaf" />
 
+  <!-- sdm845 HALs -->
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="pdcaf" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="pdcaf" />
 
