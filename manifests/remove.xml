@@ -42,7 +42,6 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/libjpeg-turbo" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
