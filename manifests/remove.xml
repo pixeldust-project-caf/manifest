@@ -6,6 +6,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- CTS -->
   <remove-project name="platform/cts" />
@@ -42,6 +43,7 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
