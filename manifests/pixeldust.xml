@@ -56,6 +56,7 @@
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="pdcaf" />
+  <project path="system/security" name="android_system_security" remote="pdcaf" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf" />
 
   <!-- Vendor -->
