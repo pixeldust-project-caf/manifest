@@ -121,6 +121,9 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
 
+  <!-- Vendor (CAF) -->
+  <remove-project name="platform/vendor/codeaurora/telephony"/>
+
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
