@@ -128,6 +128,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- Vendor (CAF) -->
   <remove-project name="platform/vendor/codeaurora/telephony" />
