@@ -130,7 +130,8 @@
   <remove-project name="platform/system/sepolicy" />
 
   <!-- Vendor (CAF) -->
-  <remove-project name="platform/vendor/codeaurora/telephony"/>
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
 
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
