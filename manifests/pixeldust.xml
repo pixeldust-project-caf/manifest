@@ -35,6 +35,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="pdcaf" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdcaf" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf" />
