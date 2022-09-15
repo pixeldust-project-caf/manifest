@@ -1,5 +1,5 @@
-![PixelDust Project](https://github.com/pixeldust-project-caf/manifest/raw/saltedcaramel/PixelDust_Header.png)
-# PixelDust Project CAF - SaltedCaramel #
+![PixelDust Project](https://github.com/pixeldust-project-caf/manifest/raw/tartufo/PixelDust_Header.png)
+# PixelDust Project CAF - Tartufo #
 
 ## Setting up your machine ##
 
