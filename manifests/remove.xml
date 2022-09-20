@@ -78,8 +78,6 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
 
   <!-- Vendor -->
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
@@ -90,7 +88,6 @@
   <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
-  <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <remove-project name="platform/vendor/qcom-opensource/thermal-engine" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
   <remove-project name="platform/vendor/qcom/holi" />
