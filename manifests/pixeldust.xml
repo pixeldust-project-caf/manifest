@@ -75,6 +75,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="pdcaf" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="pdcaf" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="pdcaf" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
     <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
