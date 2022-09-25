@@ -50,5 +50,5 @@
   <include name="manifests/remove.xml" />
   <include name="manifests/others.xml" />
   <include name="manifests/pixeldust.xml" />
-
+  <include name="manifests/pixels.xml" />
 </manifest>
