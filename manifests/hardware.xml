@@ -44,7 +44,6 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" remote="aosp" />
   <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" />
   <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" remote="aosp" />
