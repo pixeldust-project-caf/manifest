@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- Build -->
-  <!--remove-project name="platform/art" /-->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -51,7 +50,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/wlan" />
@@ -59,7 +57,6 @@
   <!-- Packages-->
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
-  <!--remove-project name="platform/packages/modules/Bluetooth" /-->
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telecomm" />
