@@ -8,6 +8,11 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/recovery" />
 
+  <!-- BT Fix -->
+  <remove-project name="platform/external/obex" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/services/Car" />
+
   <!-- CTS -->
   <remove-project name="platform/cts" />
 
@@ -101,7 +106,6 @@
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telecomm" />

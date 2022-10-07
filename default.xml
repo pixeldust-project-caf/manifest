@@ -32,6 +32,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <remote  name="pdaosp"
+           fetch="https://github.com/pixeldust-project-caf"
+           revision="refs/heads/13" />
+
   <remote  name="pdcaf"
            fetch="https://github.com/pixeldust-project-caf"
            revision="refs/heads/tartufo" />
