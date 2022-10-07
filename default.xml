@@ -40,6 +40,10 @@
            fetch="https://github.com/pixeldust-project-caf"
            revision="refs/heads/tartufo" />
 
+  <remote  name="pdcaf-mergable"
+           fetch="https://github.com/pixeldust-project-caf"
+           revision="refs/heads/tartufo" />
+
   <remote  name="pdd"
            fetch="https://github.com/pixeldust-devices"
            revision="refs/heads/13" />
@@ -48,11 +52,11 @@
            fetch="https://gitlab.com/pixeldust-vendor"
            revision="refs/heads/13" />
 
-  <include name="manifests/system.xml" />
-  <include name="manifests/vendor.xml" />
-  <include name="manifests/hardware.xml" />
-  <include name="manifests/remove.xml" />
-  <include name="manifests/others.xml" />
-  <include name="manifests/pixeldust.xml" />
-  <include name="manifests/pixels.xml" />
+  <include name="system.xml" />
+  <include name="vendor.xml" />
+  <include name="hardware.xml" />
+  <include name="remove.xml" />
+  <include name="others.xml" />
+  <include name="pixeldust.xml" />
+  <include name="pixels.xml" />
 </manifest>
