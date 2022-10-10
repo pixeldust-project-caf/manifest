@@ -33,6 +33,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pdaosp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdaosp" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pdcaf" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdaosp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdaosp" />
 
