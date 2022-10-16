@@ -13,6 +13,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-17.0" />
 
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP/"
+          revision="sc-qpr3" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage17.0" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
@@ -28,6 +32,8 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage19.1" />
 
   <!-- ProtonAOSP -->
-  <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
+  <project path="external/colorkt" name="android_external_colorkt" remote="proton" />
+  <project path="external/themelib" name="android_external_themelib" remote="proton" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" groups="proton" revision="main" />
 
 </manifest>
