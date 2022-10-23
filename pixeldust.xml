@@ -56,6 +56,7 @@
 
   <!-- External (AOSP) -->
   <remove-project name="platform/external/dtc" />
+  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
   <project path="external/dtc" name="platform/external/dtc" remote="aosp"/>
 
   <!-- Frameworks -->
