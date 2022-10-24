@@ -17,7 +17,6 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" remote="aosp" />
-  <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="aosp" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" remote="aosp" />
@@ -28,7 +27,6 @@
   <remove-project name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="aosp" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" remote="aosp" />
-  <remove-project name="platform/hardware/qcom/display" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" remote="aosp" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="aosp" />
