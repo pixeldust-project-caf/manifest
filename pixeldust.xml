@@ -48,12 +48,14 @@
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="pdcaf" />
   <project path="external/armnn" name="android_external_armnn" remote="pdcaf" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf-mergable" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf-mergable" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="pdcaf-mergable" />
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
 
   <!-- External (AOSP) -->
