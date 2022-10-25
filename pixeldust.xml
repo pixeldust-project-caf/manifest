@@ -94,11 +94,13 @@
   <project path="manifest" name="manifest" remote="pdcaf" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pdcaf-mergable" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pdcaf" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdcaf-mergable" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pdcaf-mergable" />
