@@ -69,11 +69,13 @@
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/av" name="android_frameworks_av" remote="pdcaf-mergable" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf-mergable" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pdcaf-mergable" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf-mergable" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdcaf-mergable" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="pdcaf-mergable" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/google/pixel" />
