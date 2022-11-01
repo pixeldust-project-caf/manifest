@@ -155,10 +155,11 @@
   </project>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="pdcaf-mergable" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="pdcaf-mergable" />
-  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
+  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" revision="dev" >
     <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/pixeldust/apps/PixeldustThemePicker" name="android_vendor_pixeldust_apps_PixeldustThemePicker" remote="pdcaf" />
+  <project path="vendor/PixeldustOTA" name="android_vendor_PixeldustOTA" remote="pdcaf" />
   <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="pdgms" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdcaf" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
