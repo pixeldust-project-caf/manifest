@@ -28,6 +28,9 @@
   <!-- LineageOS additions -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
+  <!-- LineageOS Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
   <!-- LineageOS HALs -->
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage19.1" />
 
