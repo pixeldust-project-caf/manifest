@@ -28,6 +28,9 @@
   <!-- LineageOS additions -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
+  <!-- LineageOS Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
   <!-- LineageOS HALs -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="lineage" >
