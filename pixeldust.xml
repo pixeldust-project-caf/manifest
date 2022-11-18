@@ -47,6 +47,7 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
@@ -55,6 +56,7 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf-mergable" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf-mergable" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
+  <project path="external/libpng" name="android_external_libpng" remote="pdcaf-mergable" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="pdcaf-mergable" />
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
 
