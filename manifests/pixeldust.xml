@@ -25,10 +25,12 @@
   <project path="device/qcom/vendor-common" name="android_device_qcom_vendor-common" remote="pdcaf" />
 
   <!-- External -->
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/tinycompress" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
+  <project path="external/libpng" name="android_external_libpng" remote="pdcaf" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="pdcaf" />
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
 
