@@ -77,9 +77,7 @@
   <project path="external/mksh" name="android_external_mksh" remote="pdcaf" />
 
   <!-- System -->
-  <remove-project name="platform/system/memory/lmkd" />
   <project path="system/core" name="android_system_core" remote="pdaosp" />
-  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf" />
   <project path="system/security" name="android_system_security" remote="pdaosp" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdaosp" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdaosp" />
