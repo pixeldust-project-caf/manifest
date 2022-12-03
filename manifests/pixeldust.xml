@@ -82,7 +82,6 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" remote="pdcaf" />
-  <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="pdcaf" />
   <project path="vendor/PixelLauncher" name="android_vendor_PixelLauncher" remote="pdcaf" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdaosp" >
