@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP/"
+          revision="sc-qpr3" />
+
+  <!-- ProtonAOSP -->
+  <project path="external/colorkt" name="android_external_colorkt" remote="proton" />
+  <project path="external/themelib" name="android_external_themelib" remote="proton" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" groups="proton" revision="main" />
+
+</manifest>

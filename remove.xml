@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- CTS -->
+  <remove-project name="platform/cts" />
+
+  <!-- Device -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google_car" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/sample" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <!-- External -->
+  <remove-project name="platform/external/android-nn-driver" />
+  <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/fastrpc" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zlib" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/net" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <!-- Packages-->
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+
+  <!-- Prebuilts -->
+  <remove-project name="kernel/prebuilts/4.19/arm64"/>
+  <remove-project name="kernel/prebuilts/5.4/arm64"/>
+  <remove-project name="kernel/prebuilts/5.4/x86-64"/>
+  <remove-project name="kernel/prebuilts/5.15/arm64"/>
+  <remove-project name="kernel/prebuilts/5.15/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
+  <remove-project name="kernel/prebuilts/mainline/arm64"/>
+  <remove-project name="kernel/prebuilts/mainline/x86-64"/>
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+
+</manifest>

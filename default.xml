@@ -2,11 +2,35 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-13.0.0_r16"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-tags="false"
+           sync-j="8" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="pdaosp"
+           fetch="https://github.com/pixeldust-project-caf"
+           revision="refs/heads/13" />
+
+  <remote  name="pdcaf"
+           fetch="https://github.com/pixeldust-project-caf"
+           revision="refs/heads/tartufo" />
+
+  <remote  name="pdd"
+           fetch="https://github.com/pixeldust-devices"
+           revision="refs/heads/13" />
+
+  <remote  name="pdgms"
+           fetch="https://gitlab.com/pixeldust-gapps"
+           revision="refs/heads/13" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r16"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -1183,4 +1207,10 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
+
+  <include name="remove.xml" />
+  <include name="lineage.xml" />
+  <include name="proton.xml" />
+  <include name="pixels.xml" />
+  <include name="pixeldust.xml" />
 </manifest>
