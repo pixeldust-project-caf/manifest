@@ -20,4 +20,6 @@
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" remote="aosp" />
 
+  <project path="dummy/kernel/headers" name="android_dummy_kernel_headers" remote="pdaosp" />
+
 </manifest>
