@@ -10,6 +10,7 @@
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/lights/Android.bp"/>
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/thermal-hal/Android.bp"/>
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/dataservices/rmnetctl/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys-intf/display/Android.bp"/>
   </project>
 
 </manifest>
