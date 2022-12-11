@@ -31,7 +31,7 @@
   <remove-project name="platform/external/tinycompress" />
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="pdcaf" />
   <project path="external/armnn" name="android_external_armnn" remote="pdcaf" />
-  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdaosp" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
   <project path="external/libpng" name="android_external_libpng" remote="pdcaf" />
@@ -41,17 +41,17 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pdaosp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdaosp" />
-  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pdcaf" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pdaosp" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdaosp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdaosp" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdaosp" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdcaf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdaosp" />
 
   <!-- sdm845 HALs -->
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="pdcaf" />
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="pdaosp" />
 
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="pdaosp" />
@@ -59,13 +59,13 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pdcaf" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pdaosp" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pdcaf" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pdaosp" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdaosp" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pdaosp" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pdaosp" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdcaf" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdaosp" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdaosp" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdaosp" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pdaosp" />
