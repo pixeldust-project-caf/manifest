@@ -16,4 +16,6 @@
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/display/libqdmetadata/Android.bp"/>
   </project>
 
+  <project path="dummy/kernel/headers" name="android_dummy_kernel_headers" remote="pdaosp" />
+
 </manifest>
