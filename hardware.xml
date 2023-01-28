@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" remote="aosp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" remote="aosp" />
