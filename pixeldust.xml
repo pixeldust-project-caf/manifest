@@ -32,10 +32,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdcaf" />
 
-  <!-- CTS (AOSP) -->
-  <remove-project name="platform/cts" />
-  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
-
   <!-- Device -->
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/vendor-common" />
@@ -59,13 +55,6 @@
   <project path="external/libpng" name="android_external_libpng" remote="pdcaf-mergable" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="pdcaf-mergable" />
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
-
-  <!-- External (AOSP) -->
-  <remove-project name="platform/external/dtc" />
-  <remove-project name="platform/external/erofs-utils" />
-  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" remote="aosp"/>
-  <project path="external/dtc" name="platform/external/dtc" remote="aosp"/>
-  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -116,14 +105,6 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdcaf-mergable" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pdcaf-mergable" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdcaf-mergable" />
-
-  <!-- Packages (AOSP) -->
-  <remove-project name="platform/packages/apps/DocumentsUI" />
-  <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" remote="aosp"/>
-  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="aosp"/>
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp"/>
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf-mergable" />

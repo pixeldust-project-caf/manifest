@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-13.0.0_r14"
+           revision="refs/tags/android-13.0.0_r23"
            sync-c="true"
            sync-tags="false"
            sync-j="8" />
@@ -54,6 +54,7 @@
 
   <include name="system.xml" />
   <include name="vendor.xml" />
+  <include name="aosp.xml"/>
   <include name="hardware.xml" />
   <include name="remove.xml" />
   <include name="others.xml" />
