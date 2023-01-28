@@ -762,16 +762,6 @@
   <project name="platform/frameworks/proto_logging" path="frameworks/proto_logging"/>
   <project name="platform/frameworks/rs" path="frameworks/rs"/>
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
-  <project name="platform/hardware/google/apf" path="hardware/google/apf"/>
-  <project name="platform/hardware/google/av" path="hardware/google/av"/>
-  <project name="platform/hardware/google/camera" path="hardware/google/camera"/>
-  <project name="platform/hardware/google/easel" path="hardware/google/easel"/>
-  <project name="platform/hardware/google/interfaces" path="hardware/google/interfaces"/>
-  <project name="platform/hardware/interfaces" path="hardware/interfaces"/>
-  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc"/>
-  <project name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
   <project name="platform/hardware/samsung/nfc" path="hardware/samsung/nfc"/>
   <project name="platform/hardware/st/nfc" path="hardware/st/nfc"/>
