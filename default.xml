@@ -49,7 +49,7 @@
            revision="refs/heads/13" />
 
   <remote  name="pdgms"
-           fetch="https://gitlab.com/pixeldust-vendor"
+           fetch="https://gitlab.com/pixeldust-gapps"
            revision="refs/heads/13" />
 
   <include name="system.xml" />
