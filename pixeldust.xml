@@ -49,6 +49,8 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/erofs-utils" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="f3669fe94b327235b033c2b6a88a6a28d586cff8" />
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="pdcaf" />
   <project path="external/armnn" name="android_external_armnn" remote="pdcaf" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf-mergable" />
