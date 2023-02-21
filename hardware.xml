@@ -2,20 +2,10 @@
 <manifest>
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" remote="aosp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" />
-  <project path="hardware/google/apf" name="platform/hardware/google/apf" remote="aosp" />
-  <project path="hardware/google/av" name="platform/hardware/google/av" remote="aosp" />
-  <project path="hardware/google/camera" name="platform/hardware/google/camera" remote="aosp" />
-  <project path="hardware/google/easel" name="platform/hardware/google/easel" remote="aosp" />
-  <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" remote="aosp" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" remote="aosp" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" remote="aosp" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="aosp" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" />
-  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" remote="aosp" />
-  <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" remote="aosp" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="aosp" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" remote="aosp" />
