@@ -83,9 +83,13 @@
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/pixeldust/apps/PixeldustThemePicker" name="android_vendor_pixeldust_apps_PixeldustThemePicker" remote="pdcaf" />
-  <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="pdgms" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdaosp" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
+
+  <!-- Gapps and partner modules -->
+  <project path="prebuilts/module_sdk" name="android_prebuilts_module_sdk" clone-depth="1"  remote="pdgms" />
+  <project path="vendor/partner_modules" name="android_vendor_partner_modules" clone-depth="1"  remote="pdgms" />
+  <project path="vendor/gms" name="android_vendor_pixelgapps" remote="pdgms" />
 
 </manifest>
