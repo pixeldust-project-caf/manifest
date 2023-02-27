@@ -36,6 +36,10 @@
            fetch="https://github.com/pixeldust-project-caf"
            revision="refs/heads/tartufo" />
 
+  <remote  name="temp"
+           fetch="https://github.com/pixeldust-project-caf"
+           revision="refs/heads/trtfeb" />
+
   <remote  name="pdd"
            fetch="https://github.com/pixeldust-devices"
            revision="refs/heads/13" />
