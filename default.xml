@@ -9,14 +9,14 @@
            sync-tags="false"
            sync-j="8" />
 
-  <remote  name="clo"
+  <remote  name="clo-la"
            fetch="https://git.codelinaro.org/clo/la"
            review="codelinaro.org"
            sync-c="true"
            sync-tags="false"
            sync-j="8" />
 
-  <default remote="clo"/>
+  <default remote="clo-la"/>
 
   <remote  name="github"
            fetch="https://github.com" />
