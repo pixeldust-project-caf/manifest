@@ -10,6 +10,15 @@
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/lights/Android.bp"/>
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/thermal-hal/Android.bp"/>
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/dataservices/rmnetctl/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/bluetooth_ext/system_bt_ext/btconfigstore/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/system/bt/device/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/system/bt/btif/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/system/bt/main/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/bluetooth_ext/packages_apps_bluetooth_ext/jni/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/jni/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/tests/unit/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/system/bt/btif/Android.bp"/>
   </project>
 
   <!-- Pixel 7 device and hw repos -->
