@@ -18,4 +18,6 @@
 
   <project path="dummy/kernel/headers" name="android_dummy_kernel_headers" remote="pdaosp" />
 
+  <project path="hardware/google/camera" name="android_hardware_google_camera" remote="pdaosp" />
+
 </manifest>
