@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Build -->
-  <project path="bionic" name="android_bionic" remote="pdaosp" />
-  <project path="build/make" name="android_build" remote="pdaosp" >
+  <project path="bionic" name="android_bionic" remote="pdmar" />
+  <project path="build/make" name="android_build" remote="pdmar" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -11,7 +11,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="pdaosp" >
+  <project path="build/soong" name="android_build_soong" remote="pdmar" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -35,43 +35,43 @@
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="pdaosp" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="pdaosp" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="pdmar" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pdmar" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pdaosp" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="pdaosp" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdaosp" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pdmar" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdmar" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdaosp" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdmar" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdaosp" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdmar" />
 
   <!-- sdm845 HALs -->
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="pdaosp" />
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="pdaosp" />
+  <project path="manifest" name="manifest" remote="pdmar" />
 
   <!-- Packages -->
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pdaosp" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pdmar" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pdcaf" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pdaosp" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdaosp" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pdaosp" />
-  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pdaosp" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdaosp" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdaosp" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdaosp" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pdaosp" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pdmar" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdmar" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pdmar" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pdmar" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdmar" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdmar" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdmar" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pdmar" />
 
   <!-- Recovery -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="pdaosp" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="pdmar" />
   <project path="external/mksh" name="android_external_mksh" remote="pdcaf" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="pdaosp" />
-  <project path="system/security" name="android_system_security" remote="pdaosp" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="pdaosp" />
+  <project path="system/core" name="android_system_core" remote="pdmar" />
+  <project path="system/security" name="android_system_security" remote="pdmar" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="pdmar" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdaosp" />
 
   <!-- Vendor -->
@@ -83,7 +83,7 @@
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/pixeldust/apps/PixeldustThemePicker" name="android_vendor_pixeldust_apps_PixeldustThemePicker" remote="pdcaf" />
-  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdaosp" />
+  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdmar" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
 
