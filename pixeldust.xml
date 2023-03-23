@@ -70,6 +70,7 @@
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="pdmar" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="pdmar" />
   <project path="system/security" name="android_system_security" remote="pdmar" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdmar" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdaosp" />
