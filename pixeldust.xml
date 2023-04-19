@@ -85,7 +85,7 @@
   <project path="vendor/pixeldust/apps/PixeldustThemePicker" name="android_vendor_pixeldust_apps_PixeldustThemePicker" remote="pdcaf" />
   <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdaosp" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="pdaosp" />
 
   <!-- Gapps and partner modules -->
   <project path="prebuilts/module_sdk" name="android_prebuilts_module_sdk" clone-depth="1"  remote="pdgms" />
