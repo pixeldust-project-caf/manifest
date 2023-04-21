@@ -32,7 +32,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" remote="aosp" />
   <project path="external/obex" name="platform/external/obex" remote="aosp" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="aosp" />
+  <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" remote="aosp" />
   <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdaosp" />
 
