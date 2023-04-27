@@ -50,7 +50,6 @@
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="pdcaf" />
@@ -60,7 +59,6 @@
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf-mergable" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
   <project path="external/libpng" name="android_external_libpng" remote="pdcaf-mergable" />
-  <project path="external/okhttp" name="android_external_okhttp" remote="pdcaf" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="pdcaf-mergable" />
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
 
@@ -70,17 +68,11 @@
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/proto_logging" />
   <project path="frameworks/av" name="android_frameworks_av" remote="temp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="temp" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pdcaf-mergable" />
   <project path="frameworks/native" name="android_frameworks_native" remote="temp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="temp" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="pdcaf" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="temp" />
-  <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="pdcaf" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -104,7 +96,6 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="temp" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pdcaf" />
@@ -113,7 +104,6 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="temp" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="temp" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="temp" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="temp" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="temp" />
 
   <!-- Recovery -->
@@ -121,16 +111,12 @@
   <project path="external/mksh" name="android_external_mksh" remote="pdcaf" />
 
   <!-- System -->
-  <remove-project name="platform/system/chre" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
-  <project path="system/chre" name="android_system_chre" remote="pdcaf" />
   <project path="system/core" name="android_system_core" remote="temp" />
-  <project path="system/media" name="android_system_media" remote="temp" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf-mergable" />
   <project path="system/security" name="android_system_security" remote="temp" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="temp" />
