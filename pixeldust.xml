@@ -33,7 +33,7 @@
   <!-- Device -->
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/vendor-common" />
-  <project path="device/common" name="android_device_common" remote="temp" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="temp" />
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdcaf" />
   <project path="device/qcom/vendor-common" name="android_device_qcom_vendor-common" remote="temp" />
 
