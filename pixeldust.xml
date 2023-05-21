@@ -31,6 +31,7 @@
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
   <project path="external/libpng" name="android_external_libpng" remote="pdcaf" />
+  <project path="external/mimalloc" name="android_external_mimalloc" remote="pdaosp" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="pdcaf" />
   <project path="external/zlib" name="android_external_zlib" remote="pdcaf" />
 
