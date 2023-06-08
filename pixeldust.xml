@@ -40,6 +40,7 @@
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/erofs-utils" />
+  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
@@ -50,6 +51,7 @@
   <project path="external/armnn" name="android_external_armnn" remote="pdcaf" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf-mergable" />
   <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="f3669fe94b327235b033c2b6a88a6a28d586cff8" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" revision="59381daac28229894d70bbf3d9ff4fd3d13541ab" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf-mergable" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
   <project path="external/libpng" name="android_external_libpng" remote="pdcaf-mergable" />
