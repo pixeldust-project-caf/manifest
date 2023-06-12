@@ -8,9 +8,9 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/libcore" />
-  <project path="art" name="android_art" remote="temp" />
-  <project path="bionic" name="android_bionic" remote="temp" />
-  <project path="build/make" name="android_build" remote="temp" >
+  <project path="art" name="android_art" remote="pdcaf-mergable" />
+  <project path="bionic" name="android_bionic" remote="pdcaf-mergable" />
+  <project path="build/make" name="android_build" remote="pdcaf-mergable" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -18,7 +18,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="temp" >
+  <project path="build/soong" name="android_build_soong" remote="pdcaf-mergable" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -27,15 +27,15 @@
   <!-- BT related repos -->
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/services/Telecomm" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="temp" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="temp" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pdcaf" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pdcaf" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/vendor-common" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="temp" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="pdcaf" />
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdcaf" />
-  <project path="device/qcom/vendor-common" name="android_device_qcom_vendor-common" remote="temp" />
+  <project path="device/qcom/vendor-common" name="android_device_qcom_vendor-common" remote="pdcaf-mergable" />
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
@@ -46,9 +46,9 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
-  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="temp" />
+  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="pdcaf" />
   <project path="external/armnn" name="android_external_armnn" remote="pdcaf" />
-  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="temp" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf-mergable" />
   <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="f3669fe94b327235b033c2b6a88a6a28d586cff8" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf-mergable" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="pdcaf" />
@@ -62,27 +62,29 @@
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="temp" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="temp" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="pdcaf-mergable" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pdcaf-mergable" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pdcaf-mergable" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="temp" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="temp" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pdcaf-mergable" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdcaf-mergable" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="pdcaf-mergable" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="temp" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="temp" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdcaf-mergable" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdcaf-mergable" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdcaf" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="temp" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pdcaf-mergable" />
 
   <!-- sdm845 HALs -->
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="pdcaf" />
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="temp" />
+  <project path="manifest" name="manifest" remote="pdcaf" revision="tartufo-pixels" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
@@ -92,18 +94,18 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telephony" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="temp" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pdcaf-mergable" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pdcaf" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="temp" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdcaf-mergable" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pdcaf" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="temp" />
-  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="temp" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="temp" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="temp" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="temp" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pdcaf-mergable" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pdcaf-mergable" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdcaf-mergable" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pdcaf-mergable" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdcaf-mergable" />
 
   <!-- Recovery -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="temp" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf-mergable" />
   <project path="external/mksh" name="android_external_mksh" remote="pdcaf" />
 
   <!-- System -->
@@ -112,11 +114,11 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
-  <project path="system/core" name="android_system_core" remote="temp" />
-  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="temp" />
-  <project path="system/security" name="android_system_security" remote="temp" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="temp" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="temp" />
+  <project path="system/core" name="android_system_core" remote="pdcaf-mergable" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf-mergable" />
+  <project path="system/security" name="android_system_security" remote="pdcaf-mergable" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf-mergable" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="pdcaf-mergable" />
 
   <!-- Vendor -->
   <remove-project name="platform/vendor/codeaurora/telephony" />
@@ -127,20 +129,20 @@
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" remote="pdcaf-mergable" />
   <project path="vendor/PixelLauncher" name="android_vendor_PixelLauncher" remote="pdcaf" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="temp" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf-mergable" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="pdcaf-mergable" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="pdcaf-mergable" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
   </project>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="pdcaf-mergable" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="temp" />
-  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="temp" >
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="pdcaf-mergable" />
+  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" >
     <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
   </project>
-  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdaosp" />
+  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdcaf" />
   <project path="vendor/support" name="android_vendor_support" remote="pdcaf" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="pdaosp" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="pdcaf" />
 
   <!-- Gapps and partner modules -->
   <project path="prebuilts/module_sdk" name="android_prebuilts_module_sdk" clone-depth="1"  remote="pdgms" />
