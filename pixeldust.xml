@@ -143,7 +143,6 @@
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" remote="pdcaf-mergable" />
-  <project path="vendor/PixelLauncher" name="android_vendor_PixelLauncher" remote="pdcaf" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom-opensource_interfaces" remote="pdcaf-mergable" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="pdcaf-mergable" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="pdcaf-mergable" >
