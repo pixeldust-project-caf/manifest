@@ -39,6 +39,8 @@
   <project path="external/sl4a" name="platform/external/sl4a" remote="aosp" />
   <remove-project name="platform/external/tensorflow" />
   <project path="external/tensorflow" name="platform/external/tensorflow" remote="aosp" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" revision="android13-qpr3-release" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/libs/systemui" />
