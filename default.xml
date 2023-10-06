@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-13.0.0_r74"
-           sync-c="true"
-           sync-tags="false"
-           sync-j="8" />
+  <!-- AOSP -->
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          sync-c="true"
+          sync-tags="false"
+          sync-j="8"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-14.0.0_r2" />
 
-  <remote  name="clo-la"
-           fetch="https://git.codelinaro.org/clo/la"
-           review="codelinaro.org"
-           sync-c="true"
-           sync-tags="false"
-           sync-j="8" />
+  <!-- CLO -->
+  <remote name="clo-la"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          sync-j="8" />
 
   <default remote="clo-la"/>
 
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+
   <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
+           fetch="https://gitlab.com" />
 
   <remote  name="pdaosp"
            fetch="https://github.com/pixeldust-project-caf"
-           revision="refs/heads/13" />
+           revision="refs/heads/14" />
 
   <remote  name="pdcaf"
            fetch="https://github.com/pixeldust-project-caf"
-           revision="refs/heads/tartufo-qpr3" />
+           revision="refs/heads/universe" />
 
   <remote  name="pdcaf-mergable"
            fetch="https://github.com/pixeldust-project-caf"
-           revision="refs/heads/tartufo-qpr3" />
+           revision="refs/heads/universe" />
 
   <remote  name="pdd"
            fetch="https://github.com/pixeldust-devices"
-           revision="refs/heads/13" />
+           revision="refs/heads/14" />
 
   <remote  name="pdgms"
            fetch="https://gitlab.com/pixeldust-gapps"
-           revision="refs/heads/13" />
+           revision="refs/heads/14" />
 
   <include name="system.xml" />
   <include name="vendor.xml" />
