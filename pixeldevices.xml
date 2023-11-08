@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="grapheneos"
+           fetch="https://github.com/GrapheneOS/"
+           revision="refs/heads/14" />
+
+  <!-- A dev tool -->
+  <project path="vendor/adevtool" name="adevtool" remote="grapheneos" />
+
+  <!-- Pixel Devices -->
+  <project path="device/google/barbet" name="device_google_barbet" groups="device,barbet" remote="grapheneos" />
+  <project path="device/google/barbet-sepolicy" name="device_google_barbet-sepolicy" groups="device,barbet" remote="grapheneos" />
+  <project path="device/google/bluejay" name="device_google_bluejay" groups="device,bluejay" remote="grapheneos" />
+  <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" remote="aosp" />
+  <project path="device/google/bluejay-kernel" name="device_google_bluejay-kernel" groups="device,bluejay" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/bramble" name="device_google_bramble" groups="device,bramble" remote="grapheneos" />
+  <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" remote="aosp" />
+  <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" remote="aosp" />
+  <project path="device/google/coral" name="device_google_coral" groups="device,coral,generic_fs" remote="grapheneos" />
+  <project path="device/google/coral-kernel" name="device_google_coral-kernel" groups="device,coral,generic_fs" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/coral-sepolicy" name="device_google_coral-sepolicy" groups="device,coral,generic_fs" remote="grapheneos" />
+  <project path="device/google/felix" name="device_google_felix" groups="device,felix" remote="grapheneos" />
+  <project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" remote="aosp" />
+  <project path="device/google/felix-kernel" name="device_google_felix-kernel" groups="device,felix" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/gs101" name="device_google_gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
+  <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
+  <project path="device/google/gs201" name="android_device_google_gs201" groups="device,cloudripper" remote="pdd" />
+  <project path="device/google/gs201-sepolicy" name="android_device_google_gs201-sepolicy" groups="device,cloudripper" remote="pdd" />
+  <project path="device/google/gs-common" name="device_google_gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" remote="grapheneos" />
+  <project path="device/google/lynx" name="device_google_lynx" groups="device,lynx" remote="grapheneos" />
+  <project path="device/google/lynx-sepolicy" name="device/google/lynx-sepolicy" groups="device,lynx" remote="aosp" />
+  <project path="device/google/lynx-kernel" name="device_google_lynx-kernel" groups="device,lynx" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/pantah" name="android_device_google_pantah" groups="device,cloudripper" remote="pdd" />
+  <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" remote="aosp" />
+  <project path="device/google/pantah-kernel" name="device_google_pantah-kernel" groups="device,cloudripper" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/raviole" name="device_google_raviole" groups="device,slider,pdk-gs-arm" remote="grapheneos" />
+  <project path="device/google/raviole-kernel" name="device_google_raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/redbull" name="device_google_redbull" groups="device,redbull" remote="grapheneos" />
+  <project path="device/google/redbull-kernel" name="device_google_redbull-kernel" groups="device,bramble,redfin" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/redbull-sepolicy" name="device_google_redbull-sepolicy" groups="device,redbull" remote="grapheneos" />
+  <project path="device/google/redfin" name="device_google_redfin" groups="device,redfin" remote="grapheneos" />
+  <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" remote="aosp" />
+  <project path="device/google/tangorpro" name="device_google_tangorpro" groups="device,tangorpro" remote="grapheneos" />
+  <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" remote="aosp" />
+  <project path="device/google/tangorpro-kernel" name="device_google_tangorpro-kernel" groups="device,tangorpro" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/sunfish" name="device_google_sunfish" groups="device,sunfish" remote="grapheneos" />
+  <project path="device/google/sunfish-kernel" name="device_google_sunfish-kernel" groups="device,sunfish" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/sunfish-sepolicy" name="device_google_sunfish-sepolicy" groups="device,sunfish" remote="grapheneos" />
+
+  <!-- Legacy AOSP additions -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
+  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" remote="aosp" />
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="generic_fs,vendor,qcom,qcom_sdm845" remote="github" revision="lineage-21.0" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="generic_fs,qcom,qcom_sdm845" remote="github" revision="lineage-21.0" />
+  <project path="hardware/qcom/sdm845/gps" name="LineageOS/android_hardware_qcom_sdm845_gps" groups="generic_fs,qcom,qcom_sdm845" remote="github" revision="lineage-21.0" />
+  <project path="hardware/qcom/sdm845/media" name="LineageOS/android_hardware_qcom_sdm845_media" groups="generic_fs,qcom,qcom_sdm845" remote="github" revision="lineage-21.0" />
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pdaosp" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pdaosp" />
+
+</manifest>

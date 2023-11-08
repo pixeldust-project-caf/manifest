@@ -26,16 +26,6 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" remote="aosp" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" remote="aosp" />
-  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" remote="aosp" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" remote="aosp" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" remote="aosp" />
-  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" />
-  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" remote="aosp" />
-  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" remote="aosp" />
-  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" remote="aosp" />
   <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" remote="aosp" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7150/Android.bp" />

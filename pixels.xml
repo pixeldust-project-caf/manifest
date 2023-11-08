@@ -21,20 +21,6 @@
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/system/bt/btif/Android.bp"/>
   </project>
 
-  <!-- Pixel 7 device and hw repos -->
-  <project path="device/google/gs101" name="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="aosp" />
-  <project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="aosp" />
-  <project path="device/google/gs201" name="device/google/gs201" groups="device,cloudripper" remote="aosp" />
-  <project path="device/google/gs201-sepolicy" name="device/google/gs201-sepolicy" groups="device,cloudripper" remote="aosp" />
-  <project path="device/google/gs-common" name="device/google/gs-common" groups="device,slider,bluejay,pdk-gs-arm" remote="aosp" />
-  <project path="device/google/pantah" name="device/google/pantah" groups="device,cloudripper" remote="aosp" />
-  <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" remote="aosp" />
-  <project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" remote="aosp" />
-  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
-  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" remote="aosp" />
-  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
-  <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" remote="aosp" />
-
   <project path="dummy/kernel/headers" name="android_dummy_kernel_headers" remote="pdaosp" />
 
 </manifest>
