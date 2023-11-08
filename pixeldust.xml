@@ -69,6 +69,10 @@
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="pdcaf" />
 
+  <!-- wpa_supplicant needed by AOSP devices -->
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" revision="android14-release" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="pdcaf" />
 
