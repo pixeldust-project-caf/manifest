@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" remote="aosp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" />
+  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
+  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" remote="aosp" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" remote="aosp" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" />
@@ -18,34 +21,34 @@
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" remote="aosp" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" remote="aosp" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="aosp" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="aosp" />
-  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
-  <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" remote="aosp" />
-  <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" remote="aosp" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" remote="aosp" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" remote="aosp" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" remote="aosp" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" remote="aosp" />
-  <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" remote="aosp" >
+  <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" remote="aosp" revision="refs/tags/android-13.0.0_r75" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7150/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" remote="aosp" />
+  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
   <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" remote="aosp" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" remote="aosp" />
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" remote="aosp" >
+  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" remote="aosp" revision="refs/tags/android-13.0.0_r75" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" remote="aosp" />
-  <project path="hardware/qcom/sm8150/gps" name="platform/hardware/qcom/sm8150/gps" remote="aosp" />
-  <project path="hardware/qcom/sm8150/media" name="platform/hardware/qcom/sm8150/media" remote="aosp" />
-  <project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" remote="aosp" />
-  <project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" remote="aosp" />
-  <project path="hardware/qcom/sm8150p/gps" name="platform/hardware/qcom/sm8150p/gps" remote="aosp" >
+  <project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sm8150/gps" name="platform/hardware/qcom/sm8150/gps" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sm8150/media" name="platform/hardware/qcom/sm8150/media" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sm8150p/gps" name="platform/hardware/qcom/sm8150p/gps" remote="aosp" revision="refs/tags/android-13.0.0_r75" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150p/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150p/Android.bp" />
   </project>
