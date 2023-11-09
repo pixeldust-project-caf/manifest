@@ -56,5 +56,5 @@
   <include name="others.xml" />
   <include name="pixeldevices.xml" />
   <include name="pixeldust.xml" />
-  <include name="pixels.xml" />
+  <include name="cafguards.xml" />
 </manifest>
