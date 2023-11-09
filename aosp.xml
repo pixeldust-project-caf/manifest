@@ -21,6 +21,10 @@
   <remove-project name="platform/external/linux-kselftest" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" clone-depth="1" />
 
+  <!-- wpa_supplicant needed by AOSP devices -->
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" revision="android14-release" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/modules/ArtPrebuilt" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" remote="aosp" clone-depth="1" />

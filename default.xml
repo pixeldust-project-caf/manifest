@@ -54,6 +54,7 @@
   <include name="hardware.xml" />
   <include name="remove.xml" />
   <include name="others.xml" />
+  <include name="pixeldevices.xml" />
   <include name="pixeldust.xml" />
   <include name="pixels.xml" />
 </manifest>

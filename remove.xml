@@ -85,6 +85,7 @@
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/fst-manager" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
   <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
   <remove-project name="platform/vendor/qcom-opensource/thermal-engine" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
