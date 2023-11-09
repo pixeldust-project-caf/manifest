@@ -1,5 +1,5 @@
-![PixelDust Project](https://github.com/pixeldust-project-caf/manifest/raw/tartufo/PixelDust_Header.png)
-# PixelDust Project CAF - Tartufo #
+![PixelDust Project](https://github.com/pixeldust-project-caf/manifest/raw/universe/PixelDust_Header.png)
+# PixelDust Project CAF - Universe #
 
 ## Setting up your machine ##
 
@@ -42,7 +42,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/pixeldust-project-caf/manifest -b tartufo-qpr3
+$ repo init -u https://github.com/pixeldust-project-caf/manifest -b universe
 ```
 
 ### Downloading the source tree ###
@@ -124,23 +124,23 @@ $ git add -A
 $ git commit -a -s
 
 # Upload your changes
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/tartufo-qpr3
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/universe
 ```
 
 ### Extra commands for Gerrit ###
 
 ```bash
 # If you desire to upload a change as private use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/tartufo-qpr3%private
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/universe%private
 
 # If you desire to upload a change as W.I.P(Work in Progress) use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/tartufo-qpr3%wip
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/universe%wip
 
 # After that, if you want to make the commit public you can use the UI tools on PixelDust Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/tartufo-qpr3%remove-private
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/universe%remove-private
 
 # If you want to unset the W.I.P status on your commit, you can use UI tools on PixelDust Gerrit website, or use the below command
-$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/tartufo-qpr3%ready
+$ git push ssh://USERNAME@gerrit.pixeldust-project.com:29418/pixeldust-project-caf/PROJECT HEAD:refs/for/universe%ready
 ```
 
 ### Making additional changes ###
