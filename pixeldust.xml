@@ -105,9 +105,11 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/core" name="android_system_core" remote="pdcaf-mergable" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="pdcaf-mergable" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="pdcaf-mergable" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdcaf-mergable" />
 
   <!-- Toolchain -->
