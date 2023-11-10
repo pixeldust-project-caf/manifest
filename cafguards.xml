@@ -3,7 +3,6 @@
 
   <!-- Add a guard for duplicated Qualcomm CAF repos -->
   <project path="vendor/make_guard" name="android_vendor_make_guard" remote="pdcaf" >
-    <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys-intf/display/Android.bp"/>
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/display/libqdmetadata/Android.bp"/>
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/display/services/config/src/Android.bp"/>
     <linkfile src="os_pickup.bp" dest="vendor/qcom/opensource/commonsys/display/gralloc/Android.bp"/>
