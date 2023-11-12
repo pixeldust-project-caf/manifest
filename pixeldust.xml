@@ -7,7 +7,6 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/build/soong" />
-  <remove-project name="platform/bootable/recovery" />
   <project path="art" name="android_art" remote="pdcaf-mergable" />
   <project path="build/bazel" name="android_build_bazel" remote="pdcaf-mergable" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
@@ -44,12 +43,15 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/fastrpc" />
-  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/webp" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="pdcaf-mergable" />
   <project path="external/cronet" name="android_external_cronet" remote="pdcaf" />
   <project path="external/fastrpc" name="android_external_fastrpc" remote="pdcaf-mergable" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="pdcaf-mergable" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="pdcaf-mergable" />
+  <project path="external/webp" name="android_external_webp" remote="pdcaf-mergable" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -96,6 +98,8 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdcaf-mergable" />
 
   <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/external/mksh" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf-mergable" />
   <project path="external/mksh" name="android_external_mksh" remote="pdcaf" />
 
