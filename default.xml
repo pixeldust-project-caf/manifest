@@ -8,7 +8,7 @@
           sync-tags="false"
           sync-j="8"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-14.0.0_r2" />
+          revision="refs/tags/android-14.0.0_r14" />
 
   <!-- CLO -->
   <remote name="clo-la"
